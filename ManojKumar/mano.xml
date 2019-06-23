@@ -1,0 +1,10 @@
+
+<suite name="VasuDeva">
+  <test name="SmokeTesting">
+    <classes>
+      <class name="com.manoj.testng.BranchCreation"/>
+      <class name="com.manoj.testng.BranchUpdation"/>
+      
+    </classes>
+  </test>
+</suite> 
