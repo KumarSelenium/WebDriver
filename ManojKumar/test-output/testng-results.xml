@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34067" started-at="2019-06-14T05:03:46Z" finished-at="2019-06-14T05:04:20Z">
+  <suite name="Grid Demo Suite" duration-ms="19119" started-at="2019-07-07T04:25:59Z" finished-at="2019-07-07T04:26:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34067" started-at="2019-06-14T05:03:46Z" finished-at="2019-06-14T05:04:20Z">
-      <class name="com.manoj.testng.WebTableTest">
-        <test-method status="PASS" signature="webtable()[pri:0, instance:com.manoj.testng.WebTableTest@58651fd0]" name="webtable" duration-ms="34020" started-at="2019-06-14T10:33:46Z" finished-at="2019-06-14T10:34:20Z">
+    <test name="Login on Chrome" duration-ms="12284" started-at="2019-07-07T04:25:59Z" finished-at="2019-07-07T04:26:12Z">
+      <class name="com.manoj.grid.Grid">
+        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:com.manoj.grid.Grid@2b98378d]" name="dropdownTest" duration-ms="12237" started-at="2019-07-07T09:56:00Z" finished-at="2019-07-07T09:56:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webtable -->
-      </class> <!-- com.manoj.testng.WebTableTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- dropdownTest -->
+      </class> <!-- com.manoj.grid.Grid -->
+    </test> <!-- Login on Chrome -->
+    <test name="Login on Firefox" duration-ms="19116" started-at="2019-07-07T04:25:59Z" finished-at="2019-07-07T04:26:19Z">
+      <class name="com.manoj.grid.Grid">
+        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:com.manoj.grid.Grid@d2cc05a]" name="dropdownTest" duration-ms="19076" started-at="2019-07-07T09:56:00Z" finished-at="2019-07-07T09:56:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTest -->
+      </class> <!-- com.manoj.grid.Grid -->
+    </test> <!-- Login on Firefox -->
+  </suite> <!-- Grid Demo Suite -->
 </testng-results>
